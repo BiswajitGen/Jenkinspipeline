@@ -5,7 +5,7 @@ pipeline{
         stage('BUILD'){
             
             steps{
-            sh 'echo "Calling from sub folders"'            
+            sh 'echo "Calling from FEAT Branch sub folders"'            
             sh 'echo "Testing Triggered"'
             }
             
