@@ -1,0 +1,14 @@
+pipeline{
+    agent any
+    
+    stages{
+        stage('BUILD'){
+            
+            steps{
+            sh 'echo "Calling from sub folders"'            
+            sh 'echo "Testing Triggered"'
+            }
+            
+        }
+    }
+}
