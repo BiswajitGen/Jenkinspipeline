@@ -8,7 +8,12 @@ pipeline{
             sh 'echo "Calling from FEAT Branch sub folders"'            
             sh 'echo "Testing Triggered"'
             }
-            
+
+        stage('BUILD webhook'){
+            steps{
+                sh 'echo "Webhok from GIT"'
+            }
+        }
         }
     }
 }
