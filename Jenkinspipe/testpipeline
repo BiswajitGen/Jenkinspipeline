@@ -12,6 +12,7 @@ pipeline{
         stage('BUILD webhook'){
             steps{
                 sh 'echo "Webhok from GIT"'
+
             }
         }
         }
