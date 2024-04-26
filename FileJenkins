@@ -5,8 +5,9 @@ pipeline{
         stage('BUILD'){
             
             steps{
-            
+            sh 'echo "Calling from sub folders"'            
             sh 'echo "Testing Triggered"'
+
             
                 
             }
